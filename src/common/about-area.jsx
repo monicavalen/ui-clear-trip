@@ -50,7 +50,7 @@ const about_data = [
 
 // about content
 const about_content = {
-    title: "OVER 150K+ CLIENT",
+    title: "",
     sub_title: "Match invoice with GST for Reconciliation",
     des: <>Reconciliation helps make sure the GST you pay and collect is correct. It allows you to spot and fix any differences, which is important for keeping accurate financial records</>,
 
@@ -105,7 +105,7 @@ const AboutArea = () => {
                         <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".6s">
                             <div className="tp-about__right">
                                 <div className="tp-about__section-box">
-                                    <h4 className="tp-section-subtitle">{title}</h4>
+                                    {/* <h4 className="tp-section-subtitle">{title}</h4> */}
                                     <h3 className="tp-section-title mb-15">{sub_title}</h3>
                                     <p>{des}</p>
                                 </div>
@@ -134,7 +134,7 @@ const AboutArea = () => {
                         <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".6s" style={{ padding: "0px" }}>
                             <div className="tp-about__right" style={{ padding: "0px" }}>
                                 <div className="tp-about__section-box">
-                                    <h4 className="tp-section-subtitle">{title}</h4>
+                                    {/* <h4 className="tp-section-subtitle">{title}</h4> */}
                                     <h3 className="tp-section-title mb-15">GST Reconciliation</h3>
                                     <p>Having all invoices in a single location makes it easier to access, review, and manage them without having to search through multiple sources.</p>
                                 </div>
@@ -196,7 +196,7 @@ const AboutArea = () => {
                         <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".6s">
                             <div className="tp-about__right">
                                 <div className="tp-about__section-box">
-                                    <h4 className="tp-section-subtitle">{title}</h4>
+                                    {/* <h4 className="tp-section-subtitle">{title}</h4> */}
                                     <h3 className="tp-section-title mb-15">Hassle Free Follow Up</h3>
                                     <p>Automated systems lower the chance of mistakes, making sure all follow-ups are tracked and handled correctly.</p>
                                 </div>
